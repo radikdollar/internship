@@ -25,5 +25,6 @@ def main():
             total_snow = sum(streets[u: r + 1])
             print(total_snow)
 
+
 if __name__ == "__main__":
     main()

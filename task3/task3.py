@@ -16,7 +16,7 @@ def main():
         if query[0] == 1:
             i = query[1]  # номер улицы
             x = query[2]  # количество снега
-            streets[i] += x
+            streets[i] += x  # прибавляем снег к нужной улице
 
         elif query[0] == 2:
             u = query[1]  # начальная улица
